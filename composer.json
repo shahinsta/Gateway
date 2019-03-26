@@ -69,8 +69,7 @@
     "autoload": {
         "psr-4": {
             "App\\": "app/",
-            "Larabookir\\Gateway\\": "src/",
-            "Larabookir\\Gateway\\Tests\\": "tests/"
+            "Larabookir\\Gateway\\": "src/"
         },
         "classmap": [
             "database/seeds",
@@ -80,8 +79,7 @@
     "autoload-dev": {
         "psr-4": {
             "Tests\\": "tests/",
-            "Larabookir\\Gateway\\": "src/",
-            "Larabookir\\Gateway\\Tests\\": "tests/"
+            "Larabookir\\Gateway\\": "src/"
         }
     },
     "minimum-stability": "dev",
